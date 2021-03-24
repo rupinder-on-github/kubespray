@@ -2,8 +2,8 @@
 aws_cluster_name = "devtest"
 
 #VPC Vars
-aws_vpc_cidr_block       = "10.250.192.0/18"
-aws_cidr_subnets_private = ["1172.31.0.0/20", "172.31.16.0/20"]
+aws_vpc_cidr_block       = "172.31.0.0/16"
+aws_cidr_subnets_private = ["172.31.0.0/20", "172.31.16.0/20"]
 aws_cidr_subnets_public  = ["172.31.32.0/20"]
 
 #Bastion Host
